@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "nodemon .",
+    "postinstall": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/jsonwebtoken": "^8.3.0",
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-multer": "^1.0.0",
+    "@types/koa-router": "^7.0.39",
+    "@types/mocha": "^5.2.6",
+    "@types/socket.io": "^2.1.2",
+    "bcrypt": "^3.0.4",
+    "httpie": "^1.1.0",
+    "jsonwebtoken": "^8.4.0",
+    "kcors": "^2.2.2",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "pg": "^7.8.0",
+    "routing-controllers": "^0.7.7",
+    "socket.io": "^2.2.0",
+    "socketio-jwt-auth": "0.0.6",
+    "ts-node": "^8.0.2",
+    "typeorm": "^0.2.13",
+    "typescript": "^3.3.3"
+  }
+}
